@@ -1,0 +1,69 @@
+.message {
+    color: green;
+}
+
+.save-btn {
+    color: green;
+    float: right
+}
+.save-btn:hover {
+    color: green;
+    border: 1px solid green
+}
+label {
+    font-size: 1.8rem;
+    margin-bottom: 0px !important
+}
+.dv-star-rating {
+    font-size: 2rem;
+    margin-left: .5rem
+}
+.well {
+    border: 0.5px solid black
+}
+.review-list {
+    margin-top: 20px;
+}
+.list-group-item {
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    padding: 18px;
+}
+
+.delete-btn {
+    margin-bottom: 0.51rem;
+    color: red;
+    float: right;
+}
+.delete-btn:hover {
+    color: red;
+    border: 1px solid red
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
+.card-pagination {
+    text-align: center;
+    margin: 5px;
+}
+.card-pagination span {
+    border: 1px solid grey;
+    padding: 3px 6px;
+    font-size: 1.8rem;
+}
+.card-pagination span:hover {
+    cursor: pointer
+}
